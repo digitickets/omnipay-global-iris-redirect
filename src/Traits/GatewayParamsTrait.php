@@ -1,0 +1,71 @@
+<?php
+
+namespace Omnipay\GlobalIris\Traits;
+
+use Omnipay\Common\AbstractGateway;
+
+/**
+ * Parameters that can be set at the gateway class, and so
+ * must also be available at the request message class.
+ */
+
+trait GatewayParamsTrait
+{
+    /**
+     * getMerchantId
+     * @return string
+     */
+    public function getMerchantId() : string
+    {
+        return $this->getParameter('merchantId');
+    }
+
+    /**
+     * setMerchantId
+     * @param  [type]           $value
+     * @return AbstractGateway
+     */
+    public function setMerchantId($value) 
+    {
+        return $this->setParameter('merchantId', $value);
+    }
+
+    /**
+     * getAccount
+     * @return string
+     */
+    public function getAccount() : string
+    {
+        return $this->getParameter('account');
+    }
+
+    /**
+     * setAccount
+     * @param  [type]           $value
+     * @return AbstractGateway
+     */
+    public function setAccount($value) 
+    {
+        return $this->setParameter('account', $value);
+    }
+    
+    /**
+     * getSharedSecret
+     * @return string
+     */
+    public function getSharedSecret() : string
+    {
+        return $this->getParameter('sharedSecret');
+    }
+
+    /**
+     * setSharedSecret
+     * @param  [type]           $value
+     * @return AbstractGateway
+     */
+    public function setSharedSecret($value) 
+    {
+        return $this->setParameter('sharedSecret', $value);
+    }
+
+}

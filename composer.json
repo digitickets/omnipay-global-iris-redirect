@@ -1,0 +1,30 @@
+{
+    "name": "digitickets/omnipay.globaliris",
+    "type": "library",
+    "description": "Custom OmniPay driver for Global Iris",
+    "keywords": ["omnipay", "globaliris"],
+    "homepage": "https://gitlab.totallydev.com/digitickets/omnipay.globaliris",
+    "autoload": {
+        "psr-4": { "Omnipay\\GlobalIris\\" : "src/" }
+    },
+    "config": {
+        "platform": {
+            "php": "7.0"
+        }
+    },
+    "require": {
+        "php": "^7.0",
+        "omnipay/common": "~2.0",
+        "league/iso3166": "^2.1"
+    },
+    "require-dev": {
+        "omnipay/tests": "~2.0",
+        "squizlabs/php_codesniffer": "~1.5"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.x.x-dev"
+        }
+    },
+    "prefer-stable": true
+}
