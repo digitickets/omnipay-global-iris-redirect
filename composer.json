@@ -1,9 +1,9 @@
 {
-    "name": "digitickets/omnipay.globaliris",
+    "name": "digitickets/omnipay-global-iris-redirect",
     "type": "library",
     "description": "Custom OmniPay driver for Global Iris",
     "keywords": ["omnipay", "globaliris"],
-    "homepage": "https://gitlab.totallydev.com/digitickets/omnipay.globaliris",
+    "homepage": "https://gitlab.totallydev.com/digitickets/omnipay-global-iris-redirect",
     "autoload": {
         "psr-4": { "Omnipay\\GlobalIris\\" : "src/" }
     },

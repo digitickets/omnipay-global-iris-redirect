@@ -1,11 +1,11 @@
-# Omnipay: GlobalIris
+# Omnipay: Global Iris
 
-**GlobalIris driver for the Omnipay PHP payment library**
+**Global Iris driver for the Omnipay PHP payment library**
 
 [Omnipay](https://github.com/thephpleague/omnipay) is a framework agnostic, multi-gateway payment
 processing library for PHP 5.3+.
 
-This package implements only GlobalIris support for Omnipay 2.x Off-sites, where the customer is redirected to enter payment details
+This package implements only Global Iris support for Omnipay 2.x Off-sites, where the customer is redirected to enter payment details
 
 ## Installation
 
@@ -15,7 +15,7 @@ to your `composer.json` file:
 ```json
 {
     "require": {
-        "digitickets/omnipay.globaliris": "^0.*"
+        "digitickets/omnipay-global-iris-redirect": "^0.*"
     }
 }
 ```
@@ -29,7 +29,7 @@ And run composer to update your dependencies:
 
 The following gateways are provided by this package:
 
-* GlobalIris
+* Global Iris
 
 For general usage instructions, please see the main [Omnipay](https://github.com/thephpleague/omnipay)
 repository.
